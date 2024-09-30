@@ -1,0 +1,48 @@
+device_recognition:
+  canny_low: 40
+  canny_high: 80
+  closing_kernel: 5
+  device_size_limit_ratio: 0.96
+  device_lean_tolerance: 3
+  power_line_thickness_ratio: 0.35
+finger_recognition:
+  YCrCb:
+    Y_low: 35                                   
+    Y_high: 165
+    Cr_low: 133
+    Cr_high: 160
+    Cb_low: 100
+    Cb_high: 146
+  open_kernel: 7                                
+  closing_kernel: 11                            
+  hand_min_size_ratio: 0.001                    
+  hand_edge_tolerance: 15                       
+  fingertip_candidate_y_tolerance: 8            
+  fingertip_offset: 4.5                         
+  horizon_perspective_factor: 0.0055            
+  vertical_perspective_factor: 0.005            
+  side_look_crop_ratio: 0.35                    
+frame_selection:
+  pre_action_offset: 1                          
+  action_gap_frame_count_limit: 3               
+  action_min_frame_count_limit: 5               
+  touch_gap_frame_count_limit: 1                
+  touch_min_frame_count_limit: 1                
+action_recognition:
+  sidelook_touch_threshold_factory: 0.3         
+  action_type_move_distance: 10                 
+  stay_time_limit: 0.5                          
+  surf_keyboard_min_match_count: 10             
+widget_recognition:
+  canny:
+    median_blur: 3                              
+    canny_low: 60                               
+    canny_high: 130
+    closing_kernel: 5                           
+    widget_max_size: 400                        
+    extension_size_limit: 55                                        
+    extend_length: 1
+  fixed_size:
+    default_side_length: 8
+script_generation:
+  template_path: ./script-template.mako         

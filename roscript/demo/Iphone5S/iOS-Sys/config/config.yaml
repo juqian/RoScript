@@ -1,0 +1,27 @@
+Robot:
+  ROBOT_MANUFACTOR:
+    ID: SchmalzHaus
+    MOTOR_SPEED: 15000
+    Layout: '[[0, -1], [1, 0]]'
+    LENGTH:
+      X: 29.7
+      Y: 21.0
+    ROBOT_ARM_HEIGHT_ERROR:
+      X: 0
+      Y: 0
+    CIRCLE_TO_PEN:
+      X: -6300
+      Y: -2500
+    ONE_CM_STEPS: 800
+    TipHeight: 23000
+    Port: COM3
+  CAPTURE:
+    ID: 0
+    ID2: 2
+    NAME: SPCA2281
+PythonHome: F:\RoScript\Python\Python36
+VirtualDebug: true
+Log: 'ON'
+StepDetour: true
+SutMonitor: 'ON'
+Calibration: 12*13*3

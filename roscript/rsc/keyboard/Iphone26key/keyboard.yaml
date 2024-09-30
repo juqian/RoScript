@@ -1,0 +1,17 @@
+keyboard:
+  area:
+    0:
+      region: [0, 0, 1, 0.25]
+      rows:
+        - keys: ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p']
+    1:
+      region: [0.05, 0.25, 0.95, 0.5]
+      rows:
+        - keys: ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l']
+    2:
+      region: [0, 0.5, 1, 1]
+      rows:
+        - keys: [{'Shift': [1.5, 1]}, 'z', 'x', 'c', 'v', 'b', 'n', 'm', {'Delete': [1.5, 1]}]
+        - keys: [{'123': [1.5, 1]}, {'Web': [1.25, 1]}, {'Voice': [1, 1]}, {'Space': [4, 1]}, {'Return':[2, 1]}]
+  original_screen_size: [1600,1200]
+        

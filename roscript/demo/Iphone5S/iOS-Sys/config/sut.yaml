@@ -1,0 +1,33 @@
+Model:
+  ContourPosition:
+    x: 590
+    y: 323
+    width: 304
+    height: 640
+  FullSize:
+    width: 59
+    height: 122
+    thickness: 9
+Camera:
+  Focus: 95
+  RotationAngle: 0
+  Size: 1600*1200
+  TipContour: 100*50
+TemplateMatch:
+  Algorithm: tcfn
+  Relation: '>='
+  Value: 0.75
+TipFall:
+  X: 704
+  Y: 750
+Robot:
+  DETOUR_STEP_THRESHOLD: 5000
+  DETOUR_STEP_DISTANCE: 3000
+  ORIGIN_DETOUR:
+    x: 2000
+    y: 0
+  TipHeight: -3100
+  DoubleClickTime: 0.1
+  PressTime: 0.6
+  WaitTime: 5
+LUMINANCE: 419
