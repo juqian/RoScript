@@ -1,0 +1,6 @@
+__pycache__
+.idea/
+video/
+output/
+ocr_cache/
+samples/

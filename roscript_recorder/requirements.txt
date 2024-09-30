@@ -1,0 +1,17 @@
+paddlepaddle-gpu
+paddleocr
+opencv-python>=3.4.2.16
+opencv-contrib-python>=3.4.2.16  
+ruamel_yaml   
+mako
+openpyxl
+numpy
+
+# Ffmepg for video processing
+# Download Ffmpeg and add its binaries into the environment variable PATH
+# https://www.gyan.dev/ffmpeg/builds/
+# There are many python bindings for ffmpeg. Make sure to download the right version
+ffmpeg-python
+
+# MediaPip for hand recognition
+mediapipe~=0.8.6

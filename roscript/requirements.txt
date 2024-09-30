@@ -1,0 +1,8 @@
+opencv-python>=3.4.2.16       
+opencv-contrib-python>=3.4.2.16
+ruamel_yaml
+pillow 
+numpy 
+pandas
+matplotlib
+pyserial
