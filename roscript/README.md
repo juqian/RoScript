@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿# roscript #
+# roscript #
 
 The RoScript test execution engine
 
@@ -38,19 +38,21 @@ The RoScript test execution engine
 	- README.md
 	```
 
+## 2. Setting up the Hardware Devices
 
+See [The Test Execution Guide](./doc/test_exec_guide.md) for more detail. 
 
-## 2. Executing Test Scripts with RoScript
+## 3. Executing Test Scripts with RoScript
 
-### 2.1 Setting parameters for the test device
+### 3.1 Setting parameters for the test device
 
 Manually set parameters according to the used robots, including the serial port, the robot device name, etc.
 
-### 2.2 Setting parameters for the subject under test
+### 3.2 Setting parameters for the subject under test
 
 Manually or use the UI to automatically set parameters for the subject under test, e.g., a mobile phone.
 
-### 2.3 Running Test Scripts
+### 3.3 Running Test Scripts
 
 (1) Make sure the running environment has been properly set. 	  
 
@@ -99,7 +101,7 @@ Then, there will be messages in the console showing that the instructions in `se
 
 Meanwhile, there will be also log files generated under folder `demo\Iphone5S\iOS-Sys`
 
-### 2.4 Virtual Debugging
+### 3.4 Virtual Debugging
 
 One may run test script in a virtual debugging mode without a real robot. To run in virtual debug model, a sequence of robot captured photos of the subject device under test must be provided in the `temp` folder under the test script directory.
 

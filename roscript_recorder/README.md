@@ -1,8 +1,8 @@
-## README
+## roscript_recorder
 
 The RoScript test script recorder
 
-### 1. Dependencies
+## 1. Dependencies
 
 (1) Make sure the running environment has been properly set. 	  
 
@@ -19,7 +19,11 @@ set PATH=%PYTHONHOME%;%PYTHONHOME%\Scripts
     python.exe -m pip install --upgrade pip
     python -m pip install -r requirements.txt 
 
-### 2. Run ###
+## 2. Setting up the Recording Environment
+
+See the [The Test Script Recording Guide](./doc/script_record_guide.md).
+
+## 3. Record Scripts
 
 - Generate test script from video (Ensure no non-English character in the paths)
 ```
